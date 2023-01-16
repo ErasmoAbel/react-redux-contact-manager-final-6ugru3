@@ -1,0 +1,60 @@
+body{
+    background: #121e21;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+}
+img{
+    margin-bottom: 80px;
+}
+button{
+    font-size: 25px;
+    width: 100%;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    background: #121e21;
+    cursor: pointer;
+    border: 4px solid;
+    border-image-slice: 2;
+    text-align: left;
+    padding: 18px 15px;
+    border-image-source: linear-gradient(
+        0deg,
+        #F7DC11 0%,
+        #F0A81A 25%,
+        #E4801D 50%,
+        #D85116 75%,
+        #B50D13 100%
+    );
+}
+button:hover{
+    background: linear-gradient(
+        0deg,
+        #F7DC11 0%,
+        #F0A81A 25%,
+        #E4801D 50%,
+        #D85116 75%,
+        #B50D13 100%
+    );
+}
+p{
+    font-size: 25px;
+    text-align: center;
+}
+.escondido{
+    display: none;
+}
+.voltar{
+    text-align: center;
+}
